@@ -46,10 +46,7 @@ var regMail = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{
     }
 }
 function onRegister(){
-    if(pass2!=null){
     alert("Registered Successfully");
-    window.location="login.html";
-}
 }
 // function onLogin(){
 //     alert("Login Successful");
